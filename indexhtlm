@@ -62,20 +62,24 @@
     </section>
 
     <footer class="footer">
-        <img src="Krokha_logotip 1.png" />
-        <div>Руководитель организации: генеральный директор
+        <img src="Krokha_logotip 1.png" class="logofooter" />
+        <div class="textfooter">Руководитель организации: генеральный директор
             Давыдова Мария Сергеевна. Юридический адрес
             ПАО "Детский Мир" - 119415, город Москва, проспект
             Вернадского, 37-3.
             Организации ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО
             "ДЕТСКИЙ МИР" присвоены ИНН 7729355029,
             ОГРН 1027700047100, ОКПО 47568073. </div>
-        <div>
-            <img src="inst.png" />
-            <img src="inst.png" />
-            <img src="inst.png" />
+        <div class="insta">
+            <img src="inst.png" class="insta_one" />
+            <img src="inst.png" class="insta_two" />
+            <img src="inst.png" class="insta-three" />
         </div>
     </footer>
+
+
+
+
 </body>
 
 </html>
