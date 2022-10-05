@@ -1,10 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>week6</title>
-    <head>
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>week6</title>
+
+<head>
+    <link rel="stylesheet" href="style.css/stylescss">
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <div>Оплата и Доставка</div>
+            <div>Отзывы</div>
+            <img src="Krokha_logotip 1.png" class="logo" />
+            <img src="noun_Purchase_3407250 1.png" class="box" />
+        </div>
+    </header>
+    <main class="main">
+        <div>Обувь</div>
+        <div>Одежда</div>
+        <div>Аксессуары</div>
+        <div>Скидки</div>
+    </main>
+    <img src="Rectangle 1.png" class="one">
+    <section class="section-main">
+        <h1>Акции</h1>
+        <div>
+            <figure class="foto1">
+                <img src="foto1.png">
+                <figcaption>Костюм для девочки <br> 599 <span>799</span></figcaption>
+                <button class="watch">смотреть</button>
+                <button class="put">в корзину</button>
+            </figure>
+        </div>
+        <div>
+            <figure class="foto2">
+                <img src="foto2.png">
+                <figcaption>Костюм для девочки <br> 599 <span>799</span></figcaption>
+                <button class="watch">смотреть</button>
+                <button class="put">в корзину</button>
+            </figure>
+        </div>
+        <div>
+            <figure class="foto3">
+                <img src="foto3.png">
+                <figcaption>Костюм для девочки <br> 599 <span>799</span></figcaption>
+                <button class="watch">смотреть</button>
+                <button class="put">в корзину</button>
+            </figure>
+        </div>
+        <div>
+            <figure class="foto4">
+                <img src="foto4.png">
+                <figcaption>Костюм для девочки <br> 599 <span>799</span></figcaption>
+                <button class="watch">смотреть</button>
+                <button class="put">в корзину</button>
+            </figure>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img src="Krokha_logotip 1.png" />
+        <div>Руководитель организации: генеральный директор
+            Давыдова Мария Сергеевна. Юридический адрес
+            ПАО "Детский Мир" - 119415, город Москва, проспект
+            Вернадского, 37-3.
+            Организации ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО
+            "ДЕТСКИЙ МИР" присвоены ИНН 7729355029,
+            ОГРН 1027700047100, ОКПО 47568073. </div>
+        <div>
+            <img src="inst.png" />
+            <img src="inst.png" />
+            <img src="inst.png" />
+        </div>
+    </footer>
+</body>
+
+</html>
