@@ -73,7 +73,7 @@
         <div class="insta">
             <img src="inst.png" class="insta_one" />
             <img src="inst.png" class="insta_two" />
-            <img src="inst.png" class="insta-three" />
+            <img src="inst.png" class="insta-thr" />
         </div>
     </footer>
 
