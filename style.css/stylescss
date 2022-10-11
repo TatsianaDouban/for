@@ -3,21 +3,50 @@ body {
 }
 
 header {
-    display: grid;
+    display: flex;
     background: #9ECDD6;
     color: rgba(255, 255, 255, 1);
     font-family: Montserrat;
+
+
 
 }
 
 .container-header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
     text-align: center;
     padding-top: 20px;
     margin: 20px;
     height: 10vh;
+    width: 100vw;
 }
+
+@media screen and (max-width:768px) {
+    .container-header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .box {
+        max-width: 50px;
+        padding: 10px;
+    }
+
+    .logo {
+        padding: 10px;
+        max-width: fit-content;
+    }
+
+    .onecont {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+
 
 .main {
     padding: 30px;
@@ -28,9 +57,51 @@ header {
     grid-column-gap: 50px;
 }
 
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        margin-right: 10px;
+
+
+    }
+
+}
+
 .one {
-    padding-left: 102px;
+    display: flex;
+    max-width: 80vw;
+    padding-left: 110px;
     padding-right: 110px;
+}
+
+
+
+@media screen and (max-width:1023px) {
+    .one {
+        display: flex;
+        max-width: vw;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
 }
 
 span {
@@ -77,6 +148,7 @@ section {
     margin-top: 50px;
     grid-template-columns: repeat(auto-fill, 300px);
     color: rgba(196, 196, 196, 0.9);
+    min-width: 350px;
 }
 
 h1 {
@@ -84,6 +156,8 @@ h1 {
     padding: 15px;
     color: #878787;
 }
+
+
 
 .put {
     background-color: rgba(0, 169, 200, 1);
@@ -109,6 +183,20 @@ h1 {
     color: rgba(255, 255, 255, 1);
     font-family: Montserrat;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+
+    }
+
+    .logofooter {
+        min-width: 20px;
+        max-width: 70px;
+    }
 }
 
 .logofooter {

@@ -12,8 +12,10 @@
 <body>
     <header>
         <div class="container-header">
-            <div>Оплата и Доставка</div>
-            <div>Отзывы</div>
+            <div class="onecont">
+                <div>Оплата и Доставка</div>
+                <div>Отзывы</div>
+            </div>
             <img src="Krokha_logotip 1.png" class="logo" />
             <img src="noun_Purchase_3407250 1.png" class="box" />
         </div>
